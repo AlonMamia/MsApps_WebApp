@@ -1,0 +1,22 @@
+<div class="card-container">
+  <div *ngFor="let user of users" class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="card-header">
+          <h3>{{ user.name }}</h3>
+        </div>
+        <p>ID: {{ user.id }}</p>
+        <p>Email: {{ user.email }}</p>
+        <p>Password: {{ user.password }}</p>
+      </div>
+
+      <div class="flip-card-back">
+        <button class="card-button" (click)="onUserSelected(user.id)" >View Details</button>
+        <br>
+        <button class="card-button" (click)="onUserToEditSelected(user.id)" >Edit User</button>
+        <br>
+        <button class="card-button" (click)="deleteUser(user.id)" >Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
