@@ -1,11 +1,11 @@
-# downloading the project
-1. for downloading the project, type in the terminal "git clone https://github.com/AlonMamia/MsApps_WebApp.git"
-2. then in your file, run the following command: "npm install"
-
-
 # WebApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+
+
+## downloading the project
+1. for downloading the project, type in the terminal "git clone https://github.com/AlonMamia/MsApps_WebApp.git"
+2. then in your file, run the following command: "npm install"
 
 ## Development server
 
