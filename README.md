@@ -7,6 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. for downloading the project, type in the terminal "git clone https://github.com/AlonMamia/MsApps_WebApp.git"
 2. then in your file, run the following command: "npm install"
 
+## Running the mock server
+in the terminal get into "src\assets\mocks" folder and run "npx json-server db.json" command, then the mocking server will be started and the json db would be available
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -31,6 +34,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Running the mock server
-in the terminal get into "src\assets\mocks" folder and run "npx json-server db.json" command, then the mocking server will be started and the json db would be available
 
